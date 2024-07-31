@@ -220,6 +220,7 @@ spec:
         securityContext:
           readOnlyRootFilesystem: true
           runAsNonRoot: true
+          runAsUser: 1000
       dnsPolicy: ClusterFirst
       restartPolicy: OnFailure
       serviceAccount: chains-secrets-admin
